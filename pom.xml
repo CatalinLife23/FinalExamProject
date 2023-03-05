@@ -7,11 +7,23 @@
     <groupId>org.example</groupId>
     <artifactId>FinalExamProject</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <dependencies>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.webdriver</groupId>
+            <artifactId>webdriver-common</artifactId>
+            <version>0.9.7376</version>
+        </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
 
 </project>
