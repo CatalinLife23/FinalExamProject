@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66848087-98dc-446b-a234-ce1a435d6d5c" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/Checkout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/FilterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/AllTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliexpress/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aliexpress/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliexpress/WishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aliexpress/WishList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliexpress/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliexpress/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliexpress/WishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,24 +58,34 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dobre/IdeaProjects/SeleniumProject/src/test/java/com/herokuapp/CheckboxesTexts.java",
+    "last_opened_file_path": "C:/Users/dobre/IdeaProjects/SeleniumProject/src/test/resources/TestSuite.xml",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.WishList.wishList">
-    <configuration name="Login.aliexpressLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/dobre/IdeaProjects/FinalExamProject/src/main/resources/AllTests.xml">
+    <configuration name="C:/Users/dobre/IdeaProjects/FinalExamProject/src/main/resources/AllTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalExamProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/AllTests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Checkout.checkout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinalExamProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aliexpress.*" />
+          <option name="PATTERN" value="com.saucedemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aliexpress" />
-      <option name="MAIN_CLASS_NAME" value="com.aliexpress.Login" />
-      <option name="METHOD_NAME" value="aliexpressLogin" />
+      <option name="PACKAGE_NAME" value="com.saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.Checkout" />
+      <option name="METHOD_NAME" value="checkout" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -79,34 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WishList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterList.filterDropdown (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinalExamProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aliexpress.*" />
+          <option name="PATTERN" value="com.saucedemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aliexpress" />
-      <option name="MAIN_CLASS_NAME" value="com.aliexpress.WishList" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WishList.wishList (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FinalExamProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aliexpress.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aliexpress" />
-      <option name="MAIN_CLASS_NAME" value="com.aliexpress.WishList" />
-      <option name="METHOD_NAME" value="wishList" />
+      <option name="PACKAGE_NAME" value="com.saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.FilterList" />
+      <option name="METHOD_NAME" value="filterDropdown" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,17 +111,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WishList.wishList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterList.filterDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinalExamProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aliexpress.*" />
+          <option name="PATTERN" value="com.saucedemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aliexpress" />
-      <option name="MAIN_CLASS_NAME" value="com.aliexpress.WishList" />
-      <option name="METHOD_NAME" value="wishList" />
+      <option name="PACKAGE_NAME" value="com.saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.FilterList" />
+      <option name="METHOD_NAME" value="filterDropdown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Logout.saucedemoLogout (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalExamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.Logout" />
+      <option name="METHOD_NAME" value="saucedemoLogout" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,10 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WishList.wishList" />
-        <item itemvalue="TestNG.WishList.wishList (1)" />
-        <item itemvalue="TestNG.WishList" />
-        <item itemvalue="TestNG.Login.aliexpressLogin" />
+        <item itemvalue="TestNG.C:/Users/dobre/IdeaProjects/FinalExamProject/src/main/resources/AllTests.xml" />
+        <item itemvalue="TestNG.Checkout.checkout" />
+        <item itemvalue="TestNG.FilterList.filterDropdown" />
+        <item itemvalue="TestNG.FilterList.filterDropdown (1)" />
+        <item itemvalue="TestNG.Logout.saucedemoLogout (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678029187206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit">
+      <created>1678034355154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678034355154</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
