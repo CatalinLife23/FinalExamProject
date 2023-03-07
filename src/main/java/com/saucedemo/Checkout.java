@@ -50,6 +50,10 @@ public class Checkout {
         WebElement viewCart = driver.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]/a"));
         Assert.assertTrue(viewCart.isEnabled());
         viewCart.click();
+        WebElement numberOfItems = driver.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]/a/span"));
+        String numberText = "1";
+        Assert.assertTrue(numberOfItems.isDisplayed());
+        Assert.assertTrue(numberOfItems.getText().contains(numberText));
 
         Thread.sleep(1000);
 
@@ -78,6 +82,10 @@ public class Checkout {
         WebElement checkoutOverview = driver.findElement(By.xpath("//*[@id=\"finish\"]"));
         Assert.assertTrue(checkoutOverview.isEnabled());
         checkoutOverview.click();
+        WebElement checkoutSuccessful = driver.findElement(By.xpath("//*[@id=\"checkout_complete_container\"]/h2"));
+        String checkoutSuccessfulText = "Thank you for your order!";
+        Assert.assertTrue(checkoutSuccessful.isDisplayed());
+        Assert.assertTrue(checkoutSuccessful.getText().contains(checkoutSuccessfulText));
 
         Thread.sleep(2000);
 

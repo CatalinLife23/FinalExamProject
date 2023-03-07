@@ -50,6 +50,10 @@ public class ShoppingCart {
         WebElement viewCart = driver.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]/a"));
         Assert.assertTrue(viewCart.isEnabled());
         viewCart.click();
+        WebElement numberOfItems = driver.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]/a/span"));
+        String numberText = "1";
+        Assert.assertTrue(numberOfItems.isDisplayed());
+        Assert.assertTrue(numberOfItems.getText().contains(numberText));
 
         Thread.sleep(1000);
 
