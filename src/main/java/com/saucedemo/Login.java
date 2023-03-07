@@ -33,6 +33,11 @@ public class Login {
         Assert.assertTrue(signInButton.isEnabled());
         signInButton.click();
 
+        WebElement homePage = driver.findElement(By.xpath("//*[@id=\"header_container\"]/div[2]/span"));
+        String homePageText = "Products";
+        Assert.assertTrue(homePage.isDisplayed());
+        Assert.assertTrue(homePage.getText().contains(homePageText));
+
         Thread.sleep(1000);
 
         driver.quit();
