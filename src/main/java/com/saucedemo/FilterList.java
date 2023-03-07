@@ -20,21 +20,28 @@ public class FilterList {
 
         WebElement username = driver.findElement(By.xpath("//*[@id=\"user-name\"]"));
         username.sendKeys("standard_user");
+        Assert.assertTrue(username.isDisplayed());
+
+        Thread.sleep(500);
 
         WebElement password = driver.findElement(By.xpath("//*[@id=\"password\"]"));
         password.sendKeys("secret_sauce");
+        Assert.assertTrue(password.isDisplayed());
 
-        Thread.sleep(1000);
+        Thread.sleep(500);
 
         WebElement signInButton = driver.findElement(By.xpath("//*[@id=\"login-button\"]"));
+        Assert.assertTrue(signInButton.isEnabled());
         signInButton.click();
 
         Thread.sleep(1000);
 
         WebElement filterDropdown = driver.findElement(By.xpath("//*[@id=\"header_container\"]/div[2]/div/span/select"));
+        Assert.assertTrue(filterDropdown.isDisplayed());
         filterDropdown.click();
         Thread.sleep(1000);
         WebElement priceLowToHighFilter = driver.findElement(By.xpath("//*[@id=\"header_container\"]/div[2]/div/span/select/option[3]"));
+        Assert.assertTrue(priceLowToHighFilter.isEnabled());
         priceLowToHighFilter.click();
 
         Thread.sleep(1000);

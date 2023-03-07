@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66848087-98dc-446b-a234-ce1a435d6d5c" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/Checkout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/FilterList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/AllTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliexpress/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliexpress/ShoppingCart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aliexpress/WishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/FilterList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/FilterList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/Logout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +46,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dobre/IdeaProjects/SeleniumProject/src/test/resources/TestSuite.xml",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dobre/IdeaProjects/SeleniumProject/src/test/resources/TestSuite.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.C:/Users/dobre/IdeaProjects/FinalExamProject/src/main/resources/AllTests.xml">
+}</component>
+  <component name="RunManager" selected="TestNG.Logout.saucedemoLogout (1)">
     <configuration name="C:/Users/dobre/IdeaProjects/FinalExamProject/src/main/resources/AllTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinalExamProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/AllTests.xml" />
@@ -93,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterList.filterDropdown (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterList.filterDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinalExamProject" />
       <extension name="coverage">
         <pattern>
@@ -111,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterList.filterDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login.saucedemoLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinalExamProject" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +119,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.saucedemo" />
-      <option name="MAIN_CLASS_NAME" value="com.saucedemo.FilterList" />
-      <option name="METHOD_NAME" value="filterDropdown" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.Login" />
+      <option name="METHOD_NAME" value="saucedemoLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Logout.saucedemoLogout (1)" />
+        <item itemvalue="TestNG.FilterList.filterDropdown" />
         <item itemvalue="TestNG.C:/Users/dobre/IdeaProjects/FinalExamProject/src/main/resources/AllTests.xml" />
         <item itemvalue="TestNG.Checkout.checkout" />
-        <item itemvalue="TestNG.FilterList.filterDropdown" />
-        <item itemvalue="TestNG.FilterList.filterDropdown (1)" />
-        <item itemvalue="TestNG.Logout.saucedemoLogout (1)" />
+        <item itemvalue="TestNG.Login.saucedemoLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678034355154</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit">
+      <created>1678116094603</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678116094603</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

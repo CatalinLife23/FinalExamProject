@@ -23,24 +23,32 @@ public class ShoppingCart {
 
         WebElement username = driver.findElement(By.xpath("//*[@id=\"user-name\"]"));
         username.sendKeys("standard_user");
+        Assert.assertTrue(username.isDisplayed());
 
         WebElement password = driver.findElement(By.xpath("//*[@id=\"password\"]"));
         password.sendKeys("secret_sauce");
+        Assert.assertTrue(password.isDisplayed());
 
         WebElement signInButton = driver.findElement(By.xpath("//*[@id=\"login-button\"]"));
+        Assert.assertTrue(signInButton.isEnabled());
         signInButton.click();
 
         Thread.sleep(1000);
 
         WebElement openProductPage = driver.findElement(By.xpath("//*[@id=\"item_4_title_link\"]"));
+        Assert.assertTrue(openProductPage.isDisplayed());
         openProductPage.click();
 
         Thread.sleep(1000);
 
         WebElement cartButton = driver.findElement(By.xpath("//*[@id=\"add-to-cart-sauce-labs-backpack\"]"));
+        Assert.assertTrue(cartButton.isDisplayed());
         cartButton.click();
 
+        Thread.sleep(1000);
+
         WebElement viewCart = driver.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]/a"));
+        Assert.assertTrue(viewCart.isEnabled());
         viewCart.click();
 
         Thread.sleep(1000);

@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Login {
@@ -18,15 +19,18 @@ public class Login {
 
         WebElement username = driver.findElement(By.xpath("//*[@id=\"user-name\"]"));
         username.sendKeys("standard_user");
+        Assert.assertTrue(username.isDisplayed());
 
         Thread.sleep(1000);
 
         WebElement password = driver.findElement(By.xpath("//*[@id=\"password\"]"));
         password.sendKeys("secret_sauce");
+        Assert.assertTrue(password.isDisplayed());
 
         Thread.sleep(1000);
 
         WebElement signInButton = driver.findElement(By.xpath("//*[@id=\"login-button\"]"));
+        Assert.assertTrue(signInButton.isEnabled());
         signInButton.click();
 
         Thread.sleep(1000);
